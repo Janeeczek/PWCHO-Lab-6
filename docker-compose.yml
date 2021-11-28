@@ -15,7 +15,7 @@ services:
       - frontend
       - backend
     ports:
-      - "89:80"
+      - "6666:80"
     volumes:
       - ./public_html/:/var/www/html/
   mysql:
